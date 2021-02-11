@@ -80,7 +80,11 @@ p {
 }
 
 img {
-  max-width: 100%;
+max-width: 100%;
+}
+.header__logo img{
+  height: 60px !important;
+  width: 260px !important;
 }
 
 input:focus,
@@ -1177,11 +1181,6 @@ ol {
   transition: all, 0.5s;
 }
 
-.services__item__icon img{
-  height:100%;
-  border-radius: 50%;
-}
-
 /*---------------------
   Services Page
 -----------------------*/
@@ -1346,6 +1345,11 @@ ol {
   text-align: center;
   display: inline-block;
   margin-right: 6px;
+}
+
+.register{
+  margin-top: 20px;
+  padding: 5px;
 }
 
 /*---------------------
