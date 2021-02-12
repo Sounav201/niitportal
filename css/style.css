@@ -34,6 +34,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.logoimg{
+  height: 60px !important;
+  width: 260px !important;
+  max-width: none;
+}
+
 h1,
 h2,
 h3,
@@ -1298,7 +1304,7 @@ ol {
   position: absolute;
   right: -16px;
   top: 0;
-  content: "/";
+  
 }
 .portfolio__item__text ul li:last-child {
   margin-right: 0;
@@ -1312,6 +1318,7 @@ ol {
   color: #adadad;
   display: block;
 }
+.portfolio__gallery
 
 .pagination__option {
   text-align: center;
