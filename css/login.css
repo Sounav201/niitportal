@@ -3,12 +3,7 @@ body {
       overflow-x: hidden;
       height: 100%;
       background-color: #B0BEC5;
-      background-repeat: no-repeat;
-      
-    }
-
-    .container-fluid{
-      margin-bottom: 3%;
+      background-repeat: no-repeat
     }
 
     .card0 {
