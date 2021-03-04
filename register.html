@@ -121,19 +121,21 @@
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <h3 class="register-heading">Register as a Student</h3>
+
+                        <form action="studentreg.php" method="POST">
                         <div class="row register-form">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="First Name *" value="" />
+                                    <input type="text" class="form-control" placeholder="First Name *" name="firstname" value="" required="true" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name *" value="" />
+                                    <input type="text" class="form-control" placeholder="Last Name *"  name="lastname" value="" required="true" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password *" value="" />
+                                    <input type="password" class="form-control" placeholder="Password *" name="password" value="" required="true"  />
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Confirm Password *"
+                                    <input type="password" class="form-control"  placeholder="Confirm Password *" name="cpassword" required="true"
                                         value="" />
                                 </div>
                                 <div class="form-group">
@@ -149,12 +151,13 @@
                                     </div>
                                 </div>
                             </div>
+
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" value="" />
+                                    <input type="email" class="form-control" placeholder="Your Email *" value="" name="email" required="true" />
                                 </div>
-                                <div class="form-group">
-                                    <input type="text" minlength="10" maxlength="10" name="txtEmpPhone"
+                                 <div class="form-group">
+                                    <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" required="true"
                                         class="form-control" placeholder="Your Phone *" value="" />
                                 </div>
                                 <div class="form-group">
@@ -167,41 +170,62 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Enter Your Answer *"
+                                    <input type="text" class="form-control" placeholder="Enter Your Answer *" name="securityquestion" required="true"
                                         value="" />
                                 </div>
-                                <input type="submit" class="btnRegister" value="Register" />
+                                <input type="submit" class="btnRegister" value="Register" name="submit"/>
                             </div>
                         </div>
+                    </form>
                     </div>
+
+                    <!--                        INTERN REGISTER                     -->
+
                     <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                         <h3 class="register-heading">Register as an Intern</h3>
+
+                        <form action="internreg.php" method="POST">                       
                         <div class="row register-form">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="First Name *" value="" />
+                                    <input type="text" class="form-control" placeholder="First Name *"  name="firstname" value="" required="true" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name *" value="" />
+                                    <input type="text" class="form-control" placeholder="Last Name *" name="lastname" value="" required="true" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email *" value="" />
+                                    <input type="email" class="form-control" placeholder="Email *" value="" name="email" required="true" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" maxlength="10" minlength="10" class="form-control"
+                                    <input type="text" maxlength="10" minlength="10" class="form-control" name="txtEmpPhone" required="true"
                                         placeholder="Phone *" value="" />
+                                </div>
+                                
+                                <div class="form-group">
+                                    <div class="maxl">
+                                        <label class="radio inline">
+                                            <input type="radio" name="gender" value="male" checked>
+                                            <span> Male </span>
+                                        </label>
+                                        <label class="radio inline">
+                                            <input type="radio" name="gender" value="female">
+                                            <span>Female </span>
+                                        </label>
+                                    </div>
                                 </div>
 
 
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password *" value="" />
+                                    <input type="password" class="form-control" placeholder="Password *" name="password" value="" required="true" />
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Confirm Password *"
-                                        value="" />
+                                    <input type="password" class="form-control" placeholder="Confirm Password *" name="cpassword" value="" required="true"
+                                         />
                                 </div>
+                                
+
                                 <div class="form-group">
                                     <select class="form-control">
                                         <option class="hidden" selected disabled>Please select your Sequrity Question
@@ -212,11 +236,12 @@
                                     </select>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="`Answer *" value="" />
+                                    <input type="text" class="form-control" placeholder="`Answer *" value="" name="securityquestion" required="true" />
                                 </div>
-                                <input type="submit" class="btnRegister" value="Register" />
+                                <input type="submit" class="btnRegister" name="submit" value="Register" />
                             </div>
                         </div>
+                    </form>
                     </div>
                 </div>
             </div>
