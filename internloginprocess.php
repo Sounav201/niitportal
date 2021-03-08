@@ -2,14 +2,15 @@
   session_start();
 ?>  
 <?php 
-include_once  'dbcon.php';
+include_once 'dbcon.php';
 
 if(isset($_POST['submit']))
 {
 
    $email = $_POST['email'];
    $password = $_POST['password'];
-   $emailSearch = "select * from registration where email='$email'";
+   //echo $email;
+   $emailSearch = "select * from internreg where email='$email'";
    $query = mysqli_query($con, $emailSearch);
    $emailCount = mysqli_num_rows($query);
 

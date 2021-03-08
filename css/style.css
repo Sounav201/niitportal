@@ -1998,6 +1998,12 @@ ol {
 .abouts{
   max-width: auto;
 }
+#about-header{
+  font-size: 40px;
+}
+.center{
+  margin-left: 2%;
+}
 #abc
 {
   max-width: 480px;

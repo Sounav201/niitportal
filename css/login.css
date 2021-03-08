@@ -95,7 +95,9 @@ body {
       color: #BDBDBD;
       font-weight: 300
     }
-
+    .violet :hover{
+      background-color: #6441A5 !important;
+    }
     input,
     textarea {
       padding: 10px 12px 10px 12px;
@@ -132,7 +134,7 @@ body {
     }
 
     .btn-blue {
-      background-color: #1A237E;
+      background-color: #6441A5;
       width: 150px;
       color: #fff;
       border-radius: 2px
