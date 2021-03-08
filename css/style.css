@@ -1052,6 +1052,13 @@ ol {
   background: #100028;
   padding-bottom: 150px;
 }
+.abouts
+{
+  background: #023094;
+  padding-bottom: 150px;
+  text-align: center;
+  border-left: rgb(206, 113, 8) 100px solid;
+}
 
 .about__pic__item {
   height: 235px;
@@ -1545,7 +1552,12 @@ ol {
 .blog__details__desc p:last-child {
   margin-bottom: 0;
 }
-
+.benefits
+{
+  font: bold;
+  color: rgb(0, 255, 242);
+  margin-top: 100px;
+}
 .blog__details__tags {
   padding-bottom: 60px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1855,7 +1867,10 @@ ol {
   .hero__slider.owl-carousel .owl-dots {
     max-width: 690px !important;
   }
-
+  .abouts
+  {
+    max-width: auto;
+  }
   .services__title {
     margin-bottom: 50px;
   }
@@ -1980,7 +1995,14 @@ ol {
   .services__title {
     margin-bottom: 50px;
   }
-
+.abouts{
+  max-width: auto;
+}
+#abc
+{
+  max-width: 480px;
+  margin: auto;
+}
   .counter__item {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
