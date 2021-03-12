@@ -94,3 +94,30 @@
     margin-bottom: -15%;
     color: #495057;
 }
+
+@media only screen and (max-width: 767px) {
+
+    .register{
+        padding-bottom: 100px;
+    }
+
+    .logindiv{
+        margin-bottom: 40px;
+    }
+    #tag{
+        height: 105px;
+    }
+    .register .nav-tabs{
+    float: none; 
+    margin-left: 40px;   
+    }    
+    #niitimage{
+        height: 75px !important;
+        width: 100% !important;
+    }
+    .footer__top__social{
+    align-items: center;
+    justify-content: center;
+    display: flex
+    }
+}
