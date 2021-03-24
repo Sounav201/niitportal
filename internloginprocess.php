@@ -29,7 +29,7 @@ if(isset($_POST['submit']))
          ?>
                     <script>
                         alert("Logged in successfully!")
-                        location.replace("index.html")
+                        location.replace("Intern-Dashboard/template/index.html")
                         </script>
                 <?php
                
