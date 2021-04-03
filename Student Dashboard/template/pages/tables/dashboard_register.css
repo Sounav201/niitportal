@@ -1,0 +1,17 @@
+.registertab{
+    display: flex;
+    justify-content: center;
+}
+
+.primary-btn{
+    padding: 10px;
+    text-decoration: none !important;
+    
+    border-radius: 20%;
+    background-color: rgb(51, 48, 48);
+    color: white;
+}
+
+.primary-btn:hover{
+    background-color: rgb(226, 15, 15);
+}
