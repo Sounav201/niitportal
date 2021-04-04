@@ -28,7 +28,7 @@ if(isset($_POST['submit']))
          ?>
                     <script>
                         alert("Logged in successfully!")
-                        location("indexx.html")
+                        location("Student Dashboard\template\index.html")
                         </script>
                 <?php
                
@@ -51,7 +51,7 @@ if(isset($_POST['submit']))
      ?>
                     <script>
                         alert("Invalid Email!")
-                        location.replace("Intern Dashboard\template\index.html")
+                        location.replace("login_page.html")
                         </script>
                 <?php
    }
