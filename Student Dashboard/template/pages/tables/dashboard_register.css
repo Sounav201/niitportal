@@ -13,5 +13,36 @@
 }
 
 .primary-btn:hover{
-    background-color: rgb(226, 15, 15);
+    background-color: rgb(252, 167, 10);
 }
+#discount-amount{
+    color: red;
+}
+#final-amount{
+    color: green;
+    font-weight: bold;
+}
+
+.coupon-disc{
+display: none;
+}
+
+.coupon-apply{
+   visibility: hidden;
+}
+
+
+.show-disc{
+display: none;
+}
+.active{
+    display: table-row;
+    visibility: visible;
+}
+.active1{
+    display: table-row;
+}
+.vanish{
+    display: none;
+}
+
